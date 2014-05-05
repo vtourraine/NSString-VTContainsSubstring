@@ -1,0 +1,5 @@
+#include "Pods-NSString+VTContainsSubstring.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/NSString+VTContainsSubstring" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/NSString+VTContainsSubstring"
+OTHER_LDFLAGS = -ObjC ${PODS_NSSTRING_VTCONTAINSSUBSTRING_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

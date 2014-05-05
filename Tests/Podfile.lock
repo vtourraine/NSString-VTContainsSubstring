@@ -1,0 +1,14 @@
+PODS:
+  - NSString+VTContainsSubstring (0.1)
+
+DEPENDENCIES:
+  - NSString+VTContainsSubstring (from `../`)
+
+EXTERNAL SOURCES:
+  NSString+VTContainsSubstring:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NSString+VTContainsSubstring: 9feff96a0cbe91d98f39ed6bb383fa445d10a421
+
+COCOAPODS: 0.32.1
