@@ -6,7 +6,7 @@ _`NSString` category to test the presence of a given substring._
 
 ## How to install
 
-Available on CocoaPods. ![CocoaPods version badge](https://cocoapod-badges.herokuapp.com/v/NSString+VTContainsSubstring/badge.png) 
+Available on CocoaPods. ![CocoaPods version badge](https://cocoapod-badges.herokuapp.com/v/NSString+VTContainsSubstring/badge.png) 
 ![CocoaPods platform badge](https://cocoapod-badges.herokuapp.com/p/NSString+VTContainsSubstring/badge.png)
 
 ``` ruby
