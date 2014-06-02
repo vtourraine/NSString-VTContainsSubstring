@@ -25,6 +25,13 @@
 
 @interface NSString (VTContainsSubstring)
 
+/**
+ Test if the string contains a given substring.
+ 
+ @param substring The substring to look for.
+
+ @return `YES` if it contains the given substring.
+ */
 - (BOOL)vt_containsSubstring:(NSString *)substring;
 - (BOOL)vt_containsSubstring:(NSString *)substring
                      options:(NSStringCompareOptions)options;
