@@ -1,6 +1,6 @@
 {
   "name": "NSString+VTContainsSubstring",
-  "version": "0.2",
+  "version": "0.3",
   "summary": "NSString category to test the presence of a given substring.",
   "description": "`NSString` category to test the presence of a given substring.",
   "homepage": "https://github.com/vtourraine/NSString-VTContainsSubstring",
@@ -14,7 +14,7 @@
   "social_media_url": "http://twitter.com/vtourraine",
   "source": {
     "git": "https://github.com/vtourraine/NSString-VTContainsSubstring.git",
-    "tag": "0.2"
+    "tag": "0.3"
   },
   "source_files": "Classes",
   "frameworks": "Foundation",
