@@ -23,6 +23,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ NSString category to test if an instance contains another substring.
+ */
 @interface NSString (VTContainsSubstring)
 
 /**
@@ -33,6 +36,15 @@
  @return `YES` if it contains the given substring.
  */
 - (BOOL)vt_containsSubstring:(NSString *)substring;
+
+/**
+ Test if the string contains a given substring, with given options.
+ 
+ @param substring The substring to look for.
+ @param options Options for the comparison.
+
+ @return `YES` if it contains the given substring.
+ */
 - (BOOL)vt_containsSubstring:(NSString *)substring
                      options:(NSStringCompareOptions)options;
 
