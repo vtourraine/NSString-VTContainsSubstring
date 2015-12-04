@@ -4,6 +4,9 @@ _`NSString` category to test the presence of a given substring._
 
 [![Build Status](https://travis-ci.org/vtourraine/NSString-VTContainsSubstring.svg?branch=master)](https://travis-ci.org/vtourraine/NSString-VTContainsSubstring)
 
+Starting with OS X 10.10 and iOS 8, `NSString` now offers a `containsString:` convenience method. The `vt_containsSubstring:` is compatible with earlier versions, and is slightly more customizable with its `options` parameter.
+
+
 ## How to install
 
 Available on CocoaPods. ![CocoaPods version badge](https://cocoapod-badges.herokuapp.com/v/NSString+VTContainsSubstring/badge.png) 
